@@ -1,11 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub API</title>
+    <title>Github API</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="logo">
+            <img src="img/logotipo-do-github.png" alt="Logotipo GitHub">
+        </div>
+        <h1>Github API</h1>
+        <main>
+            <form id="form">
+                <label for="user">Nome:</label>
+                <input type="text" id="user" class="user">
+                <button class="btt">Pesquisar</button>
+            </form>
+        </main>
+        <div class="resultDiv">
+            <div class="avatarDiv">
+                <img src="img/avatar.png" alt="Avatar" id="avatar">
+            </div>
+            <p id="seguindo">Seguindo: </p>
+            <p id="seguidores">Seguidores: </p>
+            <p id="repositorios">Repositórios: </p>
+        </div>
+    </div>
 </body>
 </html>
