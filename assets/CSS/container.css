@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 70dvh;
+    background-color: #1a1a1a;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    padding: 1.5rem 3rem;
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 37px;
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+}
+
+label[for="user"] {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    padding: 0.2rem;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #1a1a1a;
+    border: none;
+    padding: .3rem 2rem;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    transition: .3s ease;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 2px 5px 10px;
+}
+
+.resultDiv {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.resultDiv img {
+    border-radius: 100%;
+    width: 180px;
+}
+
+.resultDiv p {
+    margin-left: 1.85rem;
+}
