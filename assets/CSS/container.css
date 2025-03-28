@@ -76,3 +76,21 @@ button:hover {
 .resultDiv p {
     margin-left: 1.85rem;
 }
+
+@media (max-width:780px) {
+    .container{
+        width: 400px;
+    }
+    form{
+        display: flex;
+    }
+    .resultDiv{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .resultDiv img {
+        width: 150px;
+    }
+}
