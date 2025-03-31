@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
     background-color: #fff;
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 10px;
 }
 
@@ -78,6 +78,12 @@ button:hover {
 }
 
 @media (max-width:780px) {
+    body{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        min-height: 90dvh;
+    }
     .container{
         width: 400px;
     }
